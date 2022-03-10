@@ -1,5 +1,4 @@
-// import styles from "../styles/Home.module.css";
-import Potential from "..components/potential/Potential";
+import Potential from "../components/potential/Potential";
 import Clients from "../components/Clients";
 import Opportunity from "../components/Opportunity";
 import ProblemSolution from "../components/ProblemSolution";
