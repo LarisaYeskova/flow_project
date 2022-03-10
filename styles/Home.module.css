@@ -303,8 +303,23 @@ padding-bottom: 900px;
   background-size: 100%;
 }
 
-.problemSolution_app {
-  width: 517px;
-  background-color: rgba(100, 43, 255, 1);
-  margin-left: 100px;
+.ProblemSolution {
+  width: 462px;
+  /* width: 517px; */
+  background-color: rgba(100, 43, 255, 0.7);
+  margin: 0 0 0 100px;
+  padding: 313px 0 215px 56px;
+}
+
+.problemSolution_text {
+  margin: 0;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  /* padding: 313px 0 0 56px; */
 }
