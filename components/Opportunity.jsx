@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Opportunity() {
@@ -12,8 +13,8 @@ export default function Opportunity() {
       <div className={styles.opportunity_app}>
         <p className={styles.opportunity_app_text}>Get The Mobile App</p>
         <div className={styles.opportunity_app_img}>
-          <img src="./AppStore.png" />
-          <img src="./GooglePlay.png" />
+          <Image src="/AppStore.png" width="180" height="56" />
+          <Image src="/GooglePlay.png" width="180" height="56" />
         </div>
       </div>
     </div>

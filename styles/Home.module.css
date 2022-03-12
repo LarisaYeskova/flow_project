@@ -1,21 +1,16 @@
-/* .wrapper {
+.wrapper {
   max-width: 1920px;
-  margin: 0 auto;
-}
 
-.potential_block {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 45px;
-padding-bottom: 900px;
-}  */
+  margin: 0 auto;
+  padding: 0;
+}
 
 .potential_background {
   background-image: url("../public/Rectangle.png");
   background-repeat: no-repeat;
-  padding-right: 195px;
-  padding-left: 195px;
-  background-position: 0 0;
+  /* padding-right: 19px; */
+  /* padding-left: 195px; */
+  /* background-position: 0 0; */
   background-size: 100%;
   /* padding-bottom: 900px; */
 }
@@ -27,11 +22,12 @@ padding-bottom: 900px;
   font-weight: 400;
   font-size: 14px;
   justify-content: space-between;
-  padding-top: 76px;
+  /* padding: 76px 195px 177px 195px; */
+  padding: 5.4em 14em 12.6em 14em;
+  align-items: center;
 }
 
 .potential_nav li {
-  padding-right: 51px;
   list-style: none;
 }
 
@@ -58,6 +54,7 @@ padding-bottom: 900px;
 
 .potential_text {
   color: #ffffff;
+  padding-bottom: 193px;
 }
 
 .potential_text h3 {
@@ -65,11 +62,13 @@ padding-bottom: 900px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 1em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  padding-left: 327px;
-  padding-bottom: 16px;
+  padding-left: 18.1em;
+  padding-bottom: 0.88em;
+  /* padding-left: 327px;
+  padding-bottom: 16px; */
 }
 
 .potential_text h2 {
@@ -80,26 +79,24 @@ padding-bottom: 900px;
   line-height: 96px;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  padding-left: 327px;
+  /* padding-left: 325px; */
+  /* padding-bottom: 49px; */
+  /* max-width: 885px; */
+  padding-left: 3.38em;
+  padding-bottom: 0.51em;
+  max-width: 9.2em;
 }
 
-.potential_arrow_text {
-  font-family: "HelveticaNeueCyr";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-left: 0;
-  margin-bottom: 10px;
-  writing-mode: tb-rl;
+.potential_arrow_wrap {
+  padding-left: 195px;
+  padding-top: 406px;
+  position: absolute;
 }
 
 .potential_arrow_img {
   margin-left: 3px;
-  padding-bottom: 62px;
+  padding-top: 667px;
+  position: absolute;
 }
 
 .potential_arrow_wrap:hover {
@@ -146,8 +143,10 @@ padding-bottom: 900px;
 
 .potential_text_wrap {
   display: flex;
-  padding-right: 48px;
-  padding-left: 235px;
+  /* padding-right: 48px; */
+  /* padding-left: 574px; */
+  padding-right: 3em;
+  padding-left: 35.87em;
 }
 
 .potential_text_paragraph {
@@ -157,9 +156,12 @@ padding-bottom: 900px;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0.08em;
-  width: 320px;
-  padding-left: 92px;
-  padding-right: 92px;
+  /* max-width: 320px; */
+  /* padding-left: 25px;
+  padding-right: 92px; */
+  max-width: 16em;
+  padding-left: 1.25em;
+  padding-right: 4.6em;
 }
 
 @keyframes spin {
@@ -226,7 +228,7 @@ padding-bottom: 900px;
   width: 245px;
 }
 
-.text_block {
+.textBlock_wrap {
   background-color: #000000;
   font-family: HelveticaNeueCyr;
   font-style: normal;
@@ -301,6 +303,7 @@ padding-bottom: 900px;
   padding-left: 195px;
   background-position: 0 0;
   background-size: 100%;
+  display: flex;
 }
 
 .ProblemSolution {
@@ -322,4 +325,69 @@ padding-bottom: 900px;
   color: #ffffff;
 
   /* padding: 313px 0 0 56px; */
+}
+.problemSolution_paragraph_wrap {
+  padding: 313px 25px 0 0;
+}
+
+.problemSolution_paragraph {
+  width: 700px;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+
+  letter-spacing: 0.04em;
+  color: #000000;
+
+  padding: 0 0 180px 54px;
+}
+
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .potential_arrow_wrap {
+    padding-left: 153px;
+    padding-top: 300px;
+  }
+  .potential_nav {
+    padding: 76px 195px 90px 195px;
+  }
+
+  .potential_text {
+    padding-bottom: 46px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .potential_nav {
+    padding: 15px 50px 40px 50px;
+  }
+
+  .potential_text {
+    color: #ffffff;
+    padding-bottom: 50px;
+  }
+
+  .potential_text h3 {
+    font-size: 18px;
+
+    padding-left: 150px;
+    padding-bottom: 16px;
+  }
+
+  .potential_text h2 {
+    font-size: 65px;
+    line-height: 65px;
+    padding-left: 150px;
+  }
+
+  .potential_text_wrap {
+    padding-right: 40px;
+    padding-left: 250px;
+  }
+
+  .potential_arrow_wrap {
+    padding-left: 90px;
+    padding-top: 200px;
+  }
 }

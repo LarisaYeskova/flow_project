@@ -1,0 +1,185 @@
+.potential_background {
+  background-image: url("../../public/Rectangle.png");
+  background-repeat: no-repeat;
+  /* padding-right: 19px; */
+  /* padding-left: 195px; */
+  background-position: 0 0;
+  background-size: 100%;
+  /* padding-bottom: 900px; */
+}
+
+.potential_nav {
+  display: flex;
+
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  justify-content: space-between;
+  /* padding: 76px 195px 177px 195px; */
+  padding: 5.4em 14em 12.6em 14em;
+  align-items: center;
+}
+
+.potential_nav li {
+  list-style: none;
+}
+
+.potential_nav li p {
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.potential_btn {
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  margin: 0px 10px;
+  padding: 24px 40px 20px 40px;
+  background: #ffffff;
+}
+
+.potential_text {
+  color: #ffffff;
+  padding-bottom: 193px;
+}
+
+.potential_text h3 {
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding-left: 18.1em;
+  padding-bottom: 0.88em;
+  /* padding-left: 327px;
+    padding-bottom: 16px; */
+}
+
+.potential_text h2 {
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  /* padding-left: 325px; */
+  /* padding-bottom: 49px; */
+  /* max-width: 885px; */
+  padding-left: 3.38em;
+  padding-bottom: 0.51em;
+  max-width: 9.2em;
+}
+
+.potential_arrow_wrap {
+  padding-left: 195px;
+  padding-top: 406px;
+  position: absolute;
+}
+
+.potential_arrow_img {
+  margin-left: 3px;
+  padding-top: 667px;
+  position: absolute;
+}
+
+.potential_arrow_wrap:hover {
+  animation: shake 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+/* PotentialText */
+
+.potential_text_wrap {
+  display: flex;
+  /* padding-right: 48px; */
+  /* padding-left: 574px; */
+  padding-right: 3em;
+  padding-left: 35.87em;
+}
+
+.potential_text_paragraph {
+  font-family: HelveticaNeueCyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.08em;
+  /* max-width: 320px; */
+  /* padding-left: 25px;
+    padding-right: 92px; */
+  max-width: 16em;
+  padding-left: 1.25em;
+  padding-right: 4.6em;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.potential_image {
+  animation: spin 15s linear 0s infinite;
+}
+
+.picture {
+  position: relative;
+  width: 154px;
+  height: 160px;
+}
+.potential_vector {
+  position: absolute;
+  top: 59%;
+  left: 67%;
+  margin: -50px 0 0 -50px;
+  width: 55px;
+  height: 73px;
+}
