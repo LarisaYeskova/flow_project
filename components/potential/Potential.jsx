@@ -39,19 +39,12 @@ export default function Potential(prop) {
             <PotentialText text="We make it easy for athletes and third parties to work together in simple, compliant, safe environment." />
             <PotentialText text="No more wondering where to start, no more sliding into DMs, nothing holding you back." />
             <div className={styles.picture}>
-              <img
-                className={styles.potential_image}
-                src="/Group.png"
-                width="150"
-                height="156"
-              />
-              <img
-                className={styles.potential_vector}
-                src="/Vector.png"
-                width="55"
-                height="73"
-              />
-              {/* тут <Image/> сильно перебивает стили мои. Как поменять? */}
+              <div className={styles.potential_image}>
+                <img src="/Group.png" width="150" height="156" />
+              </div>
+              <div className={styles.potential_vector}>
+                <img src="/Vector.png" width="55" height="73" />
+              </div>
             </div>
           </div>
         </div>
