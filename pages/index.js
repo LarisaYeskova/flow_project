@@ -6,6 +6,10 @@ import ProblemSolution from "../components/ProblemSolution";
 import TextBlock from "../components/TextBlock";
 import Covered from "../components/Covered";
 import Connecting from "../components/Connecting/Connecting";
+import Video from "../components/Video";
+import AnyQues from "../components/AnyQues";
+import Team from "../components/team/Team";
+import Copyright from "../components/Copyright";
 
 export default function Flow() {
   return (
@@ -19,6 +23,13 @@ export default function Flow() {
       <ProblemSolution />
       <Covered/>
       <Connecting/>
+      <Video/>
+      <AnyQues/>
+      <Team/>
+      <Copyright/>
+      {/* <div className={styles.clients_wrap}> */}
+      <Clients />
+      {/* </div> */}
     </div>
   );
 }

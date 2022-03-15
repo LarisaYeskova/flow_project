@@ -543,6 +543,377 @@
 .c2_image {
   padding: 30px 0 66px 0;
 }
+
+/* video block */
+
+.video_wrap {
+  background: url("../public/noise.png"),
+    linear-gradient(180deg, #642bff 0%, #000000);
+  /* background-image: url("../public/noise.png"); */
+  background-size: cover;
+  padding-top: 200px;
+  display: flex;
+}
+
+.video_text_wrap {
+  padding: 60px 83px 50px 195px;
+  max-width: 663px;
+  background-color: #000000;
+  margin-bottom: 762px;
+}
+
+.video_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 58px;
+  line-height: 140%;
+  /* or 81px */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+  max-width: 390px;
+}
+
+.video {
+  position: relative;
+  padding-left: 48px;
+}
+
+.video::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 295px;
+  height: 8px;
+  background: #ffffff;
+  right: -218px;
+  bottom: 357px;
+}
+
+.video_logo {
+  position: absolute;
+  top: 125px;
+  right: 372px;
+}
+
+.video_click_wrap {
+  min-width: 120px;
+  min-height: 120px;
+  background-color: #000000;
+  border-radius: 60px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  top: 395px;
+  left: 250px;
+}
+
+.video_click {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* or 20px */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.video_flow {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: -32px;
+  bottom: 525px;
+}
+
+/* any questions block */
+
+.anyQuest_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 735px;
+  background-color: #000000;
+  padding: 300px 860px 200px 325px;
+}
+
+.anyQuest_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 64px;
+  line-height: 120%;
+  /* or 77px */
+
+  align-items: center;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+  position: relative;
+}
+
+.anyQuest_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  max-width: 185px;
+  height: 47px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 14px 39px 14px 39px;
+  position: absolute;
+  left: 872px;
+  bottom: -6636px;
+}
+
+/* текст и кнопку в ряд переделать, не позиционированием */
+
+/* team block */
+
+.team_wrap {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(11, 11, 11, 0.95649) 10.46%,
+    rgba(23, 23, 23, 0.909503) 19.92%,
+    rgba(36, 36, 36, 0.859077) 28.49%,
+    rgba(50, 50, 50, 0.805252) 36.28%,
+    rgba(64, 64, 64, 0.748067) 43.39%,
+    rgba(80, 80, 80, 0.68756) 49.92%,
+    rgba(96, 96, 96, 0.623772) 55.97%,
+    rgba(113, 113, 113, 0.556741) 61.67%,
+    rgba(131, 131, 131, 0.486506) 67.09%,
+    rgba(150, 150, 150, 0.413105) 72.36%,
+    rgba(169, 169, 169, 0.33658) 77.58%,
+    rgba(189, 189, 189, 0.256967) 82.85%,
+    rgba(211, 211, 211, 0.174307) 88.27%,
+    rgba(232, 232, 232, 0.0886382) 93.95%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  background-size: cover;
+}
+
+.team_logo {
+  padding: 16px 195px 507px 1660px;
+}
+
+.team_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 64px;
+  line-height: 120%;
+  /* identical to box height, or 77px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  color: rgba(150, 150, 150, 0.413105);
+  padding-bottom: 70px;
+}
+
+.team_staff_wrap {
+  display: flex;
+  padding: 26px 195px 96px 73px;
+  justify-content: center;
+}
+
+.team_img {
+  position: relative;
+}
+.team_name {
+  position: absolute;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 110%;
+  /* or 79px */
+
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #000000;
+  top: 48px;
+  left: 125px;
+}
+.team_position {
+  position: absolute;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #000000;
+  padding-top: 8px;
+}
+
+.team_sosial {
+  position: absolute;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  bottom: 8px;
+  right: 8px;
+
+  /* Black */
+
+  color: #000000;
+}
+.team_state,
+.team_state2 {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  width: 575px;
+  letter-spacing: 0.02em;
+
+  /* Black */
+
+  color: #000000;
+  padding-left: 315px;
+  padding-top: 24px;
+  padding-left: 251px;
+  padding-top: 24px;
+}
+
+.team_item {
+  position: relative;
+  padding-left: 380px;
+}
+
+/* Copyright */
+
+.copyright_wrap {
+  background: linear-gradient(
+    0deg,
+    #000000 -17.4%,
+    rgba(3, 3, 3, 0.989447) 0.73%,
+    rgba(10, 10, 10, 0.959534) 16.54%,
+    rgba(22, 22, 22, 0.912879) 30.23%,
+    rgba(38, 38, 38, 0.852099) 42%,
+    rgba(56, 56, 56, 0.779813) 52.03%,
+    rgba(77, 77, 77, 0.698637) 60.52%,
+    rgba(99, 99, 99, 0.611191) 67.68%,
+    rgba(122, 122, 122, 0.520091) 73.68%,
+    rgba(146, 146, 146, 0.427956) 78.74%,
+    rgba(169, 169, 169, 0.337403) 83.04%,
+    rgba(191, 191, 191, 0.251051) 86.77%,
+    rgba(211, 211, 211, 0.171516) 90.14%,
+    rgba(229, 229, 229, 0.101418) 93.34%,
+    rgba(244, 244, 244, 0.0433732) 96.56%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 151px 0 40px 0;
+  text-align: center;
+}
+.copyright_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  /* identical to box height */
+
+  letter-spacing: 0.003em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #000000;
+}
+
+.copyright_label {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.6;
+  padding: 0 341px 135px 341px;
+  min-width: 112px;
+}
+
+.copyright_textList {
+  display: flex;
+  justify-content: center;
+  padding: 32px 195px 0 195px;
+}
+
+.copyright_textList ul {
+  display: flex;
+  list-style: none;
+}
+
+.copyright_textList_item li {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.6;
+  padding-right: 48px;
+}
 @media only screen and (max-width: 1850px) and (min-width: 1441px) {
   .potential_arrow_wrap {
     padding-left: 153px;
