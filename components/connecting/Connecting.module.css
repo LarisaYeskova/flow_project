@@ -1,0 +1,127 @@
+/* connecting */
+.connecting_wrapper {
+  background-color: #000000;
+  padding-bottom: 200px;
+}
+.c_wrap {
+  display: flex;
+  padding: 144px 140px 82px 195px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  flex-wrap: nowrap;
+  flex-grow: 2;
+}
+
+.c_title {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+
+.c2_wrap {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 6px solid rgba(255, 255, 255, 1);
+  margin: 62px 195px 200px 422px;
+}
+.c_des {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.c_item {
+  max-width: 200px;
+  margin-right: 55px;
+}
+
+.c2_title {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  color: #ffffff;
+
+  padding: 60px 120px 255px 60px;
+}
+
+.c2_item {
+  display: flex;
+  flex-grow: 2;
+}
+
+.c2_des {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+  max-width: 360px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding: 65px 180px 36px 0;
+}
+
+.conn2_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
+
+  letter-spacing: 0.01em;
+
+  /* White */
+  color: #ffffff;
+  max-width: 360px;
+}
+.c2_image {
+  padding: 30px 0 66px 0;
+}
+
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .c_wrap {
+    padding: 144px 30px 82px 30px;
+  }
+  .c_item {
+    margin-right: 32px;
+  }
+
+  .c2_wrap {
+    margin: 62px 195px 200px 195px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .c_wrap {
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .c_item {
+    margin-right: 32px;
+    width: 200px;
+    padding-bottom: 30px;
+  }
+
+  .c2_wrap {
+    margin: 62px 195px 200px 195px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .c2_title {
+    padding: 60px 0 25px 0;
+  }
+  .c2_des {
+    padding: 65px 0 36px 0;
+  }
+}

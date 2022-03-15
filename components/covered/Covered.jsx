@@ -1,5 +1,6 @@
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import style from "../../styles/Home.module.css";
+import styles from "./Covered.module.css";
 
 export default function Covered() {
   return (
@@ -19,7 +20,7 @@ export default function Covered() {
             won't have to worry about because
           </p>
           <div className={styles.textdbl_wrap}>
-            <p className={styles.dblfont}>FLOW </p>
+            <p className={style.dblfont}>FLOW </p>
             <p className={styles.convered_text2}> has you covered.</p>
           </div>
           <p className={styles.convered_text3}>

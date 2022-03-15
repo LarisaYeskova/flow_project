@@ -1,0 +1,107 @@
+/* .Problem Solution */
+
+.problemSolution_wrap {
+  background-image: url("../../public/bgPaper.png");
+  background-repeat: no-repeat;
+  padding-right: 195px;
+  padding-left: 195px;
+  background-position: 0 0;
+  /* background-size: 100%; */
+  display: flex;
+}
+
+.ProblemSolution {
+  width: 462px;
+  /* width: 517px; */
+  background-color: rgba(100, 43, 255, 0.7);
+  margin: 0 0 0 100px;
+  padding: 313px 0 215px 56px;
+}
+
+.problemSolution_text {
+  margin: 0;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  /* padding: 313px 0 0 56px; */
+}
+.problemSolution_paragraph_wrap {
+  padding: 313px 25px 0 0;
+}
+
+.problemSolution_paragraph {
+  width: 700px;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+
+  letter-spacing: 0.04em;
+  color: #000000;
+
+  padding: 0 0 180px 54px;
+}
+
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .problemSolution_wrap {
+    background-size: 100%;
+  }
+  .problemSolution_paragraph_wrap {
+    padding: 200px 0 0 50px;
+  }
+  .problemSolution_paragraph {
+    width: 500px;
+    padding: 0 0 120px 54px;
+  }
+
+  .ProblemSolution {
+    width: 460px;
+    margin: 0 0 0 100px;
+    padding: 200px 135px 215px 56px;
+  }
+
+  .problemSolution_text {
+    font-size: 47px;
+  }
+
+  .problemSolution_img {
+    width: 327px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .problemSolution_wrap {
+    padding-right: 50px;
+    padding-left: 50px;
+    background-size: 100%;
+  }
+
+  .ProblemSolution {
+    width: 460px;
+    margin: 0 0 0 50px;
+    padding: 96px 118px 0px 100px;
+  }
+  .problemSolution_text {
+    font-size: 35px;
+    width: 244px;
+  }
+
+  .problemSolution_img {
+    width: 244px;
+  }
+
+  .problemSolution_paragraph_wrap {
+    padding: 66px 25px 0 0;
+  }
+
+  .problemSolution_paragraph {
+    width: 342px;
+    font-size: 25px;
+    padding: 0 0 80px 54px;
+  }
+}

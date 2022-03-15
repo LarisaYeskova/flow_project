@@ -1,12 +1,14 @@
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "./ProblemSolution.module.css";
 
 export default function ProblemSolution() {
   return (
     <div className={styles.problemSolution_wrap}>
       <div className={styles.ProblemSolution}>
         <p className={styles.problemSolution_text}>The Problem</p>
-        <Image src="/ProblemSolution.png" height="365" width="355" />
+        <div className={styles.problemSolution_img}>
+          <Image src="/ProblemSolution.png" height="365" width="355" />
+        </div>
         <p className={styles.problemSolution_text}>The Solution</p>
       </div>
 

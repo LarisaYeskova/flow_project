@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "./Video.module.css";
 import Image from "next/image";
 
 export default function Video() {

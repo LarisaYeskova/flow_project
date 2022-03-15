@@ -1,0 +1,102 @@
+/* Copyright */
+
+.copyright_wrap {
+  background: linear-gradient(
+    0deg,
+    #000000 -17.4%,
+    rgba(3, 3, 3, 0.989447) 0.73%,
+    rgba(10, 10, 10, 0.959534) 16.54%,
+    rgba(22, 22, 22, 0.912879) 30.23%,
+    rgba(38, 38, 38, 0.852099) 42%,
+    rgba(56, 56, 56, 0.779813) 52.03%,
+    rgba(77, 77, 77, 0.698637) 60.52%,
+    rgba(99, 99, 99, 0.611191) 67.68%,
+    rgba(122, 122, 122, 0.520091) 73.68%,
+    rgba(146, 146, 146, 0.427956) 78.74%,
+    rgba(169, 169, 169, 0.337403) 83.04%,
+    rgba(191, 191, 191, 0.251051) 86.77%,
+    rgba(211, 211, 211, 0.171516) 90.14%,
+    rgba(229, 229, 229, 0.101418) 93.34%,
+    rgba(244, 244, 244, 0.0433732) 96.56%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 151px 0 40px 0;
+  text-align: center;
+}
+.copyright_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  /* identical to box height */
+
+  letter-spacing: 0.003em;
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #000000;
+}
+
+.copyright_label {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.6;
+  padding: 0 341px 135px 341px;
+  min-width: 112px;
+}
+
+.copyright_textList {
+  display: flex;
+  justify-content: center;
+  padding: 32px 195px 0 195px;
+}
+
+.copyright_textList ul {
+  display: flex;
+  list-style: none;
+}
+
+.copyright_textList_item li {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.6;
+  padding-right: 48px;
+}
+
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .copyright_text {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .copyright_text {
+    font-size: 55px;
+  }
+}

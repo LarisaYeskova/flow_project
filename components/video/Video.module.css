@@ -1,0 +1,138 @@
+/* video block */
+
+.video_wrap {
+  background: url("../../public/noise.png"),
+    linear-gradient(180deg, #642bff 0%, #000000);
+  /* background-image: url("../../public/noise.png"); */
+  background-size: cover;
+  padding-top: 200px;
+  display: flex;
+}
+
+.video_text_wrap {
+  padding: 60px 83px 50px 195px;
+  max-width: 663px;
+  background-color: #000000;
+  margin-bottom: 762px;
+}
+
+.video_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 58px;
+  line-height: 140%;
+  /* or 81px */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+  max-width: 390px;
+}
+
+.video {
+  position: relative;
+  padding-left: 48px;
+}
+
+.video::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 295px;
+  height: 8px;
+  background: #ffffff;
+  right: -218px;
+  bottom: 357px;
+}
+
+.video_logo {
+  position: absolute;
+  top: 125px;
+  right: 372px;
+}
+
+.video_click_wrap {
+  min-width: 120px;
+  min-height: 120px;
+  background-color: #000000;
+  border-radius: 60px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  top: 395px;
+  left: 250px;
+}
+
+.video_click {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* or 20px */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.video_flow {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: -32px;
+  bottom: 525px;
+}
+
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .video_wrap {
+    display: block;
+    padding-bottom: 200px;
+  }
+  .video_text_wrap {
+    margin-bottom: 450px;
+  }
+
+  .video {
+    padding-left: 200px;
+  }
+  .video_flow {
+    bottom: 65px;
+    right: 210px;
+  }
+  .video::after {
+    bottom: -70px;
+    right: 0;
+  }
+  .video_logo {
+    right: 590px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .video_wrap {
+    display: block;
+    padding: 100px 0 100px 0;
+  }
+  .video_text_wrap {
+    margin-bottom: 200px;
+  }
+
+  .video {
+    padding-left: 8px;
+  }
+  .video_flow {
+    bottom: 65px;
+  }
+  .video::after {
+    bottom: -48px;
+  }
+}

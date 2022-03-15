@@ -1,0 +1,57 @@
+/* any questions block */
+
+.anyQuest_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color: #000000;
+  padding: 300px 860px 200px 325px;
+}
+
+.anyQuest_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 64px;
+  line-height: 120%;
+  /* or 77px */
+
+  align-items: center;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.anyQuest_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  max-width: 185px;
+  height: 47px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 14px 39px 14px 39px;
+  position: absolute;
+  bottom: 16px;
+  right: 3px;
+}
+
+/* текст и кнопку в ряд переделать, не позиционированием */
+
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .anyQuest_wrap {
+    padding: 300px 438px 200px 293px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .anyQuest_wrap {
+    padding: 250px 91px 200px 212px;
+  }
+}

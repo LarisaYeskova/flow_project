@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../../styles/Home.module.css";
+import styles from "./Clients.module.css";
 import { clients } from "./ClientsList";
 
 import Carousel from "react-multi-carousel";
@@ -10,15 +10,15 @@ export default function Clients() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      breakpoint: { max: 4000, min: 1921 },
+      items: 3,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 1920, min: 1440 },
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1441, min: 1024 },
       items: 2,
     },
     mobile: {
@@ -26,15 +26,22 @@ export default function Clients() {
       items: 1,
     },
   };
+
+  const itemClass = {
+    padding: 0,
+  };
   return (
     <Carousel
       responsive={responsive}
       // swipeable={false}
       draggable={false}
+      itemClass={itemClass}
       // showDots={true}
       ssr={true} // means to render carousel on server-side.
       infinite={true}
       autoPlay={true}
+      arrows={false}
+      centerMode={true}
       autoPlaySpeed={2000}
       keyBoardControl={true}
       customTransition="all .5"

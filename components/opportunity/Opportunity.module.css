@@ -1,0 +1,82 @@
+/* .opportunity */
+
+.opportunity_wrapper {
+  background-image: url("../../public/Mask.png");
+  background-repeat: no-repeat;
+  padding-right: 195px;
+  padding-left: 195px;
+  background-position: 0 0;
+  /* background-size: 100%; */
+}
+
+.opportunity_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 67px;
+  color: #ffffff;
+  width: 845px;
+
+  margin: 0;
+  padding: 440px 0 105px 100px;
+  /* padding: 440px 0 108px 327px; */
+}
+
+.opportunity_app {
+  width: 517px;
+  background-color: rgba(100, 43, 255, 1);
+  margin-left: 100px;
+}
+
+.opportunity_app_text {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.opportunity_app_img {
+  display: flex;
+  padding: 25px 50px 80px 50px;
+  /* padding: 25px 50px 145px 50px; */
+}
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .opportunity_wrapper {
+    background-size: 100%;
+  }
+  .opportunity_text {
+    width: 700px;
+    padding: 274px 0 25px 42px;
+    font-size: 43px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .opportunity_wrapper {
+    padding-right: 50px;
+    padding-left: 50px;
+    background-size: 100%;
+  }
+
+  .opportunity_text {
+    width: 600px;
+    padding: 80px 0 25px 42px;
+    font-size: 43px;
+  }
+  .opportunity_app {
+    width: 460px;
+    margin-left: 50px;
+  }
+
+  .opportunity_app_text {
+    padding-top: 25px;
+  }
+
+  .opportunity_app_img {
+    padding: 25px 50px 60px 50px;
+  }
+}

@@ -1,0 +1,119 @@
+/* Covered block */
+
+.covered_wrapper {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.covered_img {
+  padding: 504px 0 0 685px;
+  position: relative;
+}
+
+.covered_img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 96px;
+  width: 295px;
+  height: 8px;
+  background: rgba(100, 43, 255, 1);
+}
+
+.covered_img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 400px;
+  width: 555px;
+  height: 8px;
+  background: white;
+}
+
+.covered_wrap {
+  position: absolute;
+  bottom: 27px;
+  left: 135px;
+}
+
+.covered_logo {
+  position: absolute;
+  bottom: 661px;
+  right: 104px;
+}
+
+.covered_title {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+
+.convered_text1 {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 46px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 1018px;
+}
+.textdbl_wrap {
+  display: flex;
+}
+.convered_text2 {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+  text-transform: uppercase;
+
+  color: #7b4aff;
+  padding-left: 16px;
+}
+
+.convered_text3 {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 752px;
+  padding-top: 70px;
+}
+
+@media only screen and (max-width: 1850px) and (min-width: 1441px) {
+  .covered_img {
+    padding: 504px 0 0 110px;
+  }
+  .covered_wrap {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .covered_img img {
+    width: 1030px;
+    height: 685px;
+  }
+  .covered_img {
+    padding: 504px 0 0 0;
+  }
+
+  .covered_wrap {
+    left: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

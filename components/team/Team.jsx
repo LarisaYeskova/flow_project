@@ -1,4 +1,4 @@
-import styles from "../../styles/Home.module.css";
+import styles from "./Team.module.css";
 import Image from "next/image";
 import { staff } from "./teamList";
 
