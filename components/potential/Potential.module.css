@@ -6,6 +6,7 @@
   /* background-position: 0 0; */
   background-size: 100%;
   /* padding-bottom: 900px; */
+  background-color: #000000;
 }
 
 .potential_nav {
@@ -32,6 +33,9 @@
   line-height: 18px;
   text-align: center;
 }
+/* .potential_logo :hover {
+  background-image: url("../../public/flowHover.png");
+} */
 
 .potential_btn {
   font-family: HelveticaNeueCyr;
@@ -43,6 +47,15 @@
   margin: 0px 10px;
   padding: 24px 40px 20px 40px;
   background: #ffffff;
+}
+
+.potential_btn:hover {
+  color: #642bff;
+}
+
+.potential_btn:active {
+  background-color: #642bff;
+  color: #ffffff;
 }
 
 .potential_text {
@@ -91,11 +104,20 @@
   padding-top: 667px;
   position: absolute;
 }
-
-.potential_arrow_wrap:hover {
+.potential_arrow_wrap :hover {
   animation: shake 3s;
   animation-iteration-count: infinite;
+  background-image: url("../../public/ComponentHover.png");
+  background-repeat: no-repeat;
 }
+.potential_arrow_img :hover {
+  /* animation: shake 3s;
+  animation-iteration-count: infinite; */
+  /* background-image: url("../../public/ComponentHover.png");
+  background-repeat: no-repeat; */
+}
+
+/* странное решение, переделать */
 
 @keyframes shake {
   0% {

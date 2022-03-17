@@ -3,12 +3,12 @@ import Image from "next/image";
 import PotentialText from "./PotentialText";
 import styles from "./Potential.module.css";
 
-export default function Potential(prop) {
+export default function Potential({ active, setActive }) {
   return (
     <div class={styles.potential_background}>
       <div class={styles.potential_block}>
         <ul class={styles.potential_nav}>
-          <li>
+          <li className={styles.potential_logo}>
             <Image src="/logo.png" width="188" height="48" alt="flow logo" />
           </li>
           <li>
@@ -17,7 +17,12 @@ export default function Potential(prop) {
             </p>
           </li>
           <li>
-            <button className={styles.potential_btn}>Get in touch</button>
+            <button
+              onClick={() => setActive(true)}
+              className={styles.potential_btn}
+            >
+              Get in touch
+            </button>
           </li>
         </ul>
       </div>

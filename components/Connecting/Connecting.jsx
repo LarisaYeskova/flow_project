@@ -1,19 +1,36 @@
 import Image from "next/image";
 import styles from "./Connecting.module.css";
+import { useState } from "react";
 import { connecting } from "./ConnectingList";
 
 export default function Connecting() {
+  const [list, setList] = useState(connecting);
+  console.log(list);
+  const toggleActive = (inputId) => {
+    console.log(inputId);
+    setList((prev) => {
+      return prev.map((item) => {
+        const { id, isActive } = item;
+
+        return {
+          ...item,
+          isActive: inputId === id ? !isActive : isActive,
+        };
+      });
+    });
+  };
+
   return (
     <div className={styles.connecting_wrapper}>
       <div className={styles.c_wrap}>
         {connecting.map(({ id, connectingTitle, description, isActive }) => {
-          const stl = {
-            Color: !isActive ? "grey" : "white",
-          };
-          // решить почему не работает
           return (
             <div>
-              <div className={styles.c_item} style={stl}>
+              <div
+                onClick={() => toggleActive({ id })}
+                className={styles.c_item}
+                id={id}
+              >
                 <div className={styles.c_title}>{connectingTitle}</div>
                 <p className={styles.c_des}>{description}</p>
               </div>
@@ -24,6 +41,7 @@ export default function Connecting() {
 
       {connecting.map(
         ({ id, connectingTitle, description, text, isActive }) => {
+          console.log({ isActive });
           if (isActive) {
             return (
               <div className={styles.c2_wrap}>

@@ -68,6 +68,7 @@
   justify-content: center;
   top: 395px;
   left: 250px;
+  cursor: pointer;
 }
 
 .video_click {

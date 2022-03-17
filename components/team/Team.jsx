@@ -26,7 +26,17 @@ export default function Team() {
 
       <div className={styles.team_staff_wrap}>
         {staff.map(
-          ({ name, surname, stats, stats2, sosial, image, position }) => (
+          ({
+            name,
+            surname,
+            stats,
+            stats2,
+            linkedin,
+            facebook,
+            twitter,
+            image,
+            position,
+          }) => (
             <div>
               <div className={styles.team_item}>
                 <div className={styles.team_img}>
@@ -40,7 +50,12 @@ export default function Team() {
                   <p className={styles.team_position}>{position}</p>
                 </h2>
 
-                <p className={styles.team_sosial}>{sosial}</p>
+                <div className={styles.team_sosial}>
+                  {" "}
+                  <p className={styles.team_sosial_item}>{linkedin}</p>{" "}
+                  <p className={styles.team_sosial_item}>{facebook}</p>
+                  <p className={styles.team_sosial_item}>{twitter}</p>
+                </div>
               </div>
               <div>
                 <p className={styles.team_state}>{stats}</p>

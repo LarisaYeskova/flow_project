@@ -7,7 +7,8 @@ export const staff = [
     name: "Jonathan",
     surname: " levy",
     position: "founder & creative director",
-    sosial: "Linkedin facebook",
+    linkedin: "linkedin",
+    facebook: "facebook",
     stats:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget volutpat vivamus scelerisque mi. Tempor luctus viverra purus volutpat turpis ut sed. Quis ornare nibh non, habitant facilisi hendrerit purus nisi, ultrices. Pretium in morbi velit bibendum facilisis odio neque ultricies",
     stats2:
@@ -19,7 +20,9 @@ export const staff = [
     name: "Sean",
     surname: "Padden",
     position: "founder & creative director",
-    sosial: "Linkedin facebook twitter",
+    linkedin: "linkedin",
+    facebook: "facebook",
+    twitter: "twitter",
     stats:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget volutpat vivamus scelerisque mi. Tempor luctus viverra purus volutpat turpis ut sed. Quis ornare nibh non, habitant facilisi hendrerit purus nisi, ultrices. Pretium in morbi velit bibendum facilisis odio neque ultricies.",
     stats2:

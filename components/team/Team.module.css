@@ -110,6 +110,17 @@
   /* Black */
 
   color: #000000;
+  display: flex;
+}
+.team_sosial_item {
+  padding-right: 48px;
+}
+.team_sosial_item:hover {
+  color: rgba(100, 43, 255, 1);
+}
+
+.team_sosial_item:active {
+  color: rgba(85, 37, 217, 1);
 }
 .team_state,
 .team_state2 {

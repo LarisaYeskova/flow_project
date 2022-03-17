@@ -10,6 +10,12 @@ export default function ProblemSolution() {
           <Image src="/ProblemSolution.png" height="365" width="355" />
         </div>
         <p className={styles.problemSolution_text}>The Solution</p>
+        <div className={styles.problemSolution_ellipse1}>
+          <Image src="/ellipse.png" width={144} height={144} />
+        </div>
+        <div className={styles.problemSolution_ellipse2}>
+          <Image src="/ellipse.png" width={144} height={144} />
+        </div>
       </div>
 
       <div className={styles.problemSolution_paragraph_wrap}>

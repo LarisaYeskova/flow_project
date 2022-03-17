@@ -1,6 +1,6 @@
-import styles from "./AnyQues.module.css";
+import styles from "./anyQues.module.css";
 
-export default function TextBlock() {
+export default function AnyQues({ active, setActive }) {
   return (
     <div className={styles.anyQuest_wrap}>
       <div style={{ position: "relative" }}>
@@ -8,7 +8,7 @@ export default function TextBlock() {
           have any questions? <br />
           stay <span style={{ color: "#642bff" }}>in touch</span>
         </p>
-        <button href="#" className={styles.anyQuest_btn}>
+        <button onClick={() => setActive(true)} className={styles.anyQuest_btn}>
           I want to ask
         </button>
       </div>

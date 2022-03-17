@@ -14,8 +14,9 @@
   width: 462px;
   /* width: 517px; */
   background-color: rgba(100, 43, 255, 0.7);
-  margin: 0 0 0 100px;
-  padding: 313px 0 215px 56px;
+  margin: 0 0 120px 100px;
+  padding: 313px 0px 216px 56px;
+  position: relative;
 }
 
 .problemSolution_text {
@@ -47,7 +48,30 @@
 
   padding: 0 0 180px 54px;
 }
+.problemSolution_ellipse1,
+.problemSolution_ellipse2 {
+  position: absolute;
+}
 
+.problemSolution_ellipse1 {
+  left: -70px;
+  top: 250px;
+}
+.problemSolution_ellipse2 {
+  left: -70px;
+  bottom: 165px;
+}
+
+.problemSolution_ellipse1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 75px;
+  right: 70px;
+  width: 4px;
+  height: 383px;
+  background: black;
+}
 @media only screen and (max-width: 1850px) and (min-width: 1441px) {
   .problemSolution_wrap {
     background-size: 100%;
@@ -72,6 +96,12 @@
 
   .problemSolution_img {
     width: 327px;
+  }
+  .problemSolution_ellipse1 {
+    top: 150px;
+  }
+  .problemSolution_ellipse1::before {
+    height: 366px;
   }
 }
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
@@ -103,5 +133,16 @@
     width: 342px;
     font-size: 25px;
     padding: 0 0 80px 54px;
+  }
+
+  .problemSolution_ellipse1 {
+    top: 33px;
+  }
+
+  .problemSolution_ellipse2 {
+    bottom: 80px;
+  }
+  .problemSolution_ellipse1::before {
+    height: 298px;
   }
 }
