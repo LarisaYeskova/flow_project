@@ -47,51 +47,51 @@ export default function PopUp({ active, setActive }) {
                 <p className={styles.popUp_item}>twitter</p>
               </div>
             </div>
-            {/* <div className={styles.popUp_wrap_white}> */}
-            <form className={styles.popUp_wrap_white}>
-              <div style={{ display: "flex" }}>
-                <div className={styles.popUp_wrap_label}>
-                  <label className={styles.formLabel} for="fname">
-                    Full Name
+            <div className={styles.popUp_wrap_white}>
+              <form className={styles.popUp_wrap_white}>
+                <div style={{ display: "flex" }}>
+                  <div className={styles.popUp_wrap_label}>
+                    <label className={styles.formLabel} for="fname">
+                      Full Name
+                    </label>
+                    <input
+                      placeholder="John Doe"
+                      className={styles.formImput}
+                      type="text"
+                      id="fname"
+                      name="fname"
+                    />
+                  </div>{" "}
+                  <div className={styles.popUp_wrap_label}>
+                    <label className={styles.formLabel} for="lname">
+                      email
+                    </label>
+                    <input
+                      placeholder="example@yourdomain.com"
+                      className={styles.formImput}
+                      type="email"
+                      id="lname"
+                      name="lname"
+                    />
+                  </div>
+                </div>
+                <div className={styles.formMassanger}>
+                  <label className={styles.formLabel} for="massange">
+                    massange
                   </label>
                   <input
-                    placeholder="John Doe"
                     className={styles.formImput}
+                    placeholder="Hi there..."
                     type="text"
-                    id="fname"
-                    name="fname"
-                  />
-                </div>{" "}
-                <div className={styles.popUp_wrap_label}>
-                  <label className={styles.formLabel} for="lname">
-                    email
-                  </label>
-                  <input
-                    placeholder="example@yourdomain.com"
-                    className={styles.formImput}
-                    type="email"
-                    id="lname"
+                    id="massange"
                     name="lname"
                   />
                 </div>
-              </div>
-              <div className={styles.formMassanger}>
-                <label className={styles.formLabel} for="massange">
-                  massange
-                </label>
-                <input
-                  className={styles.formImput}
-                  placeholder="Hi there..."
-                  type="text"
-                  id="massange"
-                  name="lname"
-                />
-              </div>
-              <button disabled className={styles.popUp_form_btn}>
-                Send
-              </button>
-            </form>
-            {/* </div> */}
+                <button disabled className={styles.popUp_form_btn}>
+                  Send
+                </button>
+              </form>
+            </div>
           </div>
 
           <div className={styles.popUp_img}>
@@ -101,4 +101,26 @@ export default function PopUp({ active, setActive }) {
       </div>
     </div>
   );
+}
+
+{
+  /* <div className={styles.popUp_close_wrap}>
+<div className={styles.popUp_close_title}>
+  <p>thank</p>
+  <p style={{ color: "#7745FF", paddingLeft: "15px" }}>you</p>
+</div>
+
+<p className={styles.popUp_close_text}>
+  We will contact you as soon as possible
+</p>
+<p className={styles.popUp_close_text2}>
+  The popup automatically closes after 5 seconds, or you can{" "}
+  <p
+    style={{ textDecorationLine: "underline", paddingLeft: "10px" }}
+    onClick={() => setActive(false)}
+  >
+    close it
+  </p>
+</p>
+</div> */
 }

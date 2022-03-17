@@ -5,11 +5,13 @@ import { connecting } from "./ConnectingList";
 
 export default function Connecting() {
   const [list, setList] = useState(connecting);
+
   console.log(list);
+
   const toggleActive = (inputId) => {
     console.log(inputId);
     setList((prev) => {
-      return prev.map((item) => {
+      const newList = prev.map((item) => {
         const { id, isActive } = item;
 
         return {
@@ -17,6 +19,7 @@ export default function Connecting() {
           isActive: inputId === id ? !isActive : isActive,
         };
       });
+      return newList;
     });
   };
 
