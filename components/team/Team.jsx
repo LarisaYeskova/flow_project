@@ -1,6 +1,6 @@
 import styles from "./Team.module.css";
 import Image from "next/image";
-import { staff } from "./teamList";
+import { staff } from "./TeamList";
 
 export default function Team() {
   return (
