@@ -12,10 +12,11 @@ export default function Video() {
       </div>
 
       <div className={styles.video}>
-        <img src="/videoImg.png" width={1010} height={568} />
-
+        <div className={styles.video_img}>
+          <Image src="/videoImg.png" width={1010} height={568} alt="video" />
+        </div>
         <div className={styles.video_logo}>
-          <Image src="/videoLogo.png" width={292} height={307} />
+          <Image src="/videoLogo.png" width={292} height={307} alt="logo" />
         </div>
         <div className={styles.video_click_wrap}>
           <p className={styles.video_click}>
@@ -24,7 +25,7 @@ export default function Video() {
           </p>
         </div>
         <div className={styles.video_flow}>
-          <Image src="/logo.png" width={124} height={31} />
+          <Image src="/logo.png" width={124} height={31} alt="flow" />
         </div>
       </div>
     </div>

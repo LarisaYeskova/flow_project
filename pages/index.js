@@ -6,7 +6,7 @@ import Opportunity from "../components/opportunity/Opportunity";
 import ProblemSolution from "../components/problemSolution/ProblemSolution";
 import TextBlock from "../components/textBlock/TextBlock";
 import Covered from "../components/covered/Covered";
-import Connecting from "../components/сonnecting/Connecting";
+import Connecting from "../components/Connecting/Connecting";
 import Video from "../components/video/Video";
 import AnyQues from "../components/anyQuestion/AnyQues";
 import Team from "../components/team/Team";
@@ -23,12 +23,12 @@ export default function Flow() {
       <TextBlock />
       <Opportunity />
       <ProblemSolution />
-      <Covered />
+      <Covered /> 
       <Connecting />
-      <Video />
+      <Video /> 
       <AnyQues active={activeModal} setActive={setActiveModal} />
-      <Team />
-      <Copyright />
+      <Team /> 
+      <Copyright /> 
       <Clients />
       <PopUp active={activeModal} setActive={setActiveModal} />
     </div>

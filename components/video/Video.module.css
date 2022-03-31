@@ -7,6 +7,17 @@
   background-size: cover;
   padding-top: 200px;
   display: flex;
+  position: relative;
+}
+.video_wrap::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 295px;
+  height: 8px;
+  background: #ffffff;
+  right: 0;
+  bottom: 357px;
 }
 
 .video_text_wrap {
@@ -27,33 +38,18 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
-
-  /* White */
-
   color: #ffffff;
   max-width: 390px;
 }
 
 .video {
   position: relative;
-  padding-left: 48px;
-}
-
-.video::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 295px;
-  height: 8px;
-  background: #ffffff;
-  right: -218px;
-  bottom: 357px;
 }
 
 .video_logo {
   position: absolute;
-  top: 125px;
-  right: 372px;
+  left: 345px;
+  top: 130px;
 }
 
 .video_click_wrap {
@@ -67,7 +63,7 @@
 
   justify-content: center;
   top: 395px;
-  left: 250px;
+  left: 200px;
   cursor: pointer;
 }
 
@@ -80,17 +76,14 @@
   /* or 20px */
 
   text-align: center;
-
-  /* White */
-
   color: #ffffff;
 }
 
 .video_flow {
   position: absolute;
   transform: rotate(-90deg);
-  right: -32px;
-  bottom: 525px;
+  left: 928px;
+  top: 474px;
 }
 
 @media only screen and (max-width: 1850px) and (min-width: 1441px) {
@@ -98,23 +91,28 @@
     display: block;
     padding-bottom: 200px;
   }
+
+  .video_wrap::after {
+    bottom: 70px;
+    right: 0;
+  }
   .video_text_wrap {
-    margin-bottom: 450px;
+    margin-bottom: 300px;
   }
 
   .video {
     padding-left: 200px;
   }
   .video_flow {
-    bottom: 65px;
-    right: 210px;
+    left: 1120px;
+    top: 474px;
   }
   .video::after {
-    bottom: -70px;
-    right: 0;
+    bottom: 70px;
   }
   .video_logo {
-    right: 590px;
+    left: 550px;
+    top: 130px;
   }
 }
 
@@ -131,9 +129,20 @@
     padding-left: 8px;
   }
   .video_flow {
-    bottom: 65px;
+    left: 928px;
+    top: 474px;
   }
-  .video::after {
-    bottom: -48px;
+
+  .video_logo {
+    left: 350px;
+    top: 130px;
+  }
+
+  .video_click_wrap {
+    top: 395px;
+    left: 100px;
+  }
+  .video_wrap::after {
+    bottom: 48px;
   }
 }

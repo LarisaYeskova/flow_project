@@ -94,9 +94,16 @@
   .copyright_text {
     font-size: 80px;
   }
+
+  .copyright_label {
+    padding: 0 200px 135px 200px;
+  }
 }
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
   .copyright_text {
     font-size: 55px;
+  }
+  .copyright_label {
+    padding: 0 5px 135px 5px;
   }
 }
