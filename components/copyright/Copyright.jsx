@@ -5,7 +5,7 @@ export default function Copyright() {
   return (
     <div className={styles.copyright_wrap}>
       <div>
-        <Image src="/logoDark.png" width={260} height={55} />
+        <Image src="/logoDark.png" width={260} height={55} alt="картинка" />
       </div>
 
       <div className={styles.copyright_textList}>

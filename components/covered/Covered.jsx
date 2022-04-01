@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import style from "../../styles/Home.module.css";
 import styles from "./Covered.module.css";
@@ -6,10 +7,20 @@ export default function Covered() {
   return (
     <div className={styles.covered_wrapper}>
       <div className={styles.covered_img}>
-        <img src="/footballman.png" height={760} width={1235} />
+        <Image
+          src="/footballman.png"
+          height={760}
+          width={1235}
+          alt="картинка"
+        />
 
         <div className={styles.covered_logo}>
-          <Image src="/VectorGroup.png" width="188" height="197" />
+          <Image
+            src="/VectorGroup.png"
+            width="188"
+            height="197"
+            alt="картинка"
+          />
         </div>
         <div className={styles.covered_wrap}>
           <h2 className={styles.covered_title}>

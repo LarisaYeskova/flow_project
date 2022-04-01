@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import styles from "./PopUp.module.css";
 import Image from "next/image";
 
@@ -95,7 +96,7 @@ export default function PopUp({ active, setActive }) {
           </div>
 
           <div className={styles.popUp_img}>
-            <Image src="/11111.png" width={642} height={847} />
+            <Image src="/11111.png" width={642} height={847} alt="" />
           </div>
         </div>
       </div>

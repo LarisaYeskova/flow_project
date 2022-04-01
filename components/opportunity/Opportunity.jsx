@@ -13,8 +13,8 @@ export default function Opportunity() {
       <div className={styles.opportunity_app}>
         <p className={styles.opportunity_app_text}>Get The Mobile App</p>
         <div className={styles.opportunity_app_img}>
-          <Image src="/AppStore.png" width="180" height="56" />
-          <Image src="/GooglePlay.png" width="180" height="56" />
+          <Image src="/AppStore.png" width="180" height="56" alt="" />
+          <Image src="/GooglePlay.png" width="180" height="56" alt="" />
         </div>
       </div>
     </div>

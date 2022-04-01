@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import styles from "./ProblemSolution.module.css";
 
@@ -7,14 +8,14 @@ export default function ProblemSolution() {
       <div className={styles.ProblemSolution}>
         <p className={styles.problemSolution_text}>The Problem</p>
         <div className={styles.problemSolution_img}>
-          <Image src="/ProblemSolution.png" height="365" width="355" />
+          <Image src="/ProblemSolution.png" height="365" width="355" alt="" />
         </div>
         <p className={styles.problemSolution_text}>The Solution</p>
         <div className={styles.problemSolution_ellipse1}>
-          <Image src="/ellipse.png" width={144} height={144} />
+          <Image src="/ellipse.png" width={144} height={144} alt="" />
         </div>
         <div className={styles.problemSolution_ellipse2}>
-          <Image src="/ellipse.png" width={144} height={144} />
+          <Image src="/ellipse.png" width={144} height={144} alt="" />
         </div>
       </div>
 

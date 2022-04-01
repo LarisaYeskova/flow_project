@@ -29,6 +29,7 @@ export default function Connecting() {
       <div className={styles.c_wrap}>
         {list.map(({ id, connectingTitle, description }) => {
           return (
+            // eslint-disable-next-line react/jsx-key
             <div>
               <div
                 onClick={() => toggleActive(id)}
@@ -55,7 +56,12 @@ export default function Connecting() {
                 <div className={styles.conn2_text}>{text}</div>
               </div>
               <div className={styles.c2_image}>
-                <Image src="/VectorZ.png" width={224} height={295} />
+                <Image
+                  src="/VectorZ.png"
+                  width={224}
+                  height={295}
+                  alt="картинка"
+                />
               </div>
             </div>
           );

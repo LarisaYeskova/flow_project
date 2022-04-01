@@ -7,7 +7,7 @@ export default function Team() {
     <div>
       <div className={styles.team_wrap}>
         <div className={styles.team_logo}>
-          <Image src="/Vector.png" width="65" height="85" />
+          <Image src="/Vector.png" width="65" height="85" alt="" />
         </div>
         <p className={styles.team_text}>
           Our{" "}
@@ -37,10 +37,11 @@ export default function Team() {
             image,
             position,
           }) => (
+            // eslint-disable-next-line react/jsx-key
             <div>
               <div className={styles.team_item}>
                 <div className={styles.team_img}>
-                  <Image src={image} width="445" height="391" />
+                  <Image src={image} width="445" height="391" alt="" />
                 </div>
 
                 <h2 className={styles.team_name}>

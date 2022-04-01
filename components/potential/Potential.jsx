@@ -5,9 +5,9 @@ import styles from "./Potential.module.css";
 
 export default function Potential({ active, setActive }) {
   return (
-    <div class={styles.potential_background}>
-      <div class={styles.potential_block}>
-        <ul class={styles.potential_nav}>
+    <div className={styles.potential_background}>
+      <div className={styles.potential_block}>
+        <ul className={styles.potential_nav}>
           <li className={styles.potential_logo}>
             <Image src="/logo.png" width="188" height="48" alt="flow logo" />
           </li>
@@ -32,6 +32,7 @@ export default function Potential({ active, setActive }) {
           src="/component.png"
           width="11"
           height="162"
+          alt=""
         />
       </div>
       <div className={styles.potential_text}>
@@ -45,10 +46,10 @@ export default function Potential({ active, setActive }) {
           <PotentialText text="No more wondering where to start, no more sliding into DMs, nothing holding you back." />
           <div className={styles.picture}>
             <div className={styles.potential_image}>
-              <img src="/Group.png" width="150" height="156" />
+              <Image src="/Group.png" width="150" height="156" alt="" />
             </div>
             <div className={styles.potential_vector}>
-              <img src="/Vector.png" width="55" height="73" />
+              <Image src="/Vector.png" width="55" height="73" alt="" />
             </div>
           </div>
         </div>

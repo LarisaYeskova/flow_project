@@ -51,7 +51,7 @@ export default function Clients() {
       {clients.map(({ name, surname, stats, image }) => (
         <div className={styles.clients_wrap}>
           <div className={styles.clients_container}>
-            <Image src={image} width="546" height="700" />
+            <Image src={image} width="546" height="700" alt="картинка" />
             <div className={styles.clients_item}>
               <h2 className={styles.clients_name}>
                 {name}
@@ -59,7 +59,12 @@ export default function Clients() {
                 {surname}
               </h2>
               <div className={styles.clients_logo}>
-                <Image src="/VectorGroup.png" width="84" height="88" />
+                <Image
+                  src="/VectorGroup.png"
+                  width="84"
+                  height="88"
+                  alt="картинка"
+                />
               </div>
               <h3 className={styles.clients_title}>Key Stats:</h3>
               <p className={styles.clients_paragraph}>{stats}</p>
