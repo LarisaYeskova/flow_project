@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./anyQues.module.css";
 
 export default function AnyQues({ active, setActive }) {

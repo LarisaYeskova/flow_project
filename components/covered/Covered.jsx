@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import React from "react";
 import Image from "next/image";
 import style from "../../styles/Home.module.css";
 import styles from "./Covered.module.css";
