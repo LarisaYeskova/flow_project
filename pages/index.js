@@ -1,5 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
-import React from 'react';
+
 import styles from "../styles/Home.module.css";
 
 import Potential from "../components/potential/Potential";

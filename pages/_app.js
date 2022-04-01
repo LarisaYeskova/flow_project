@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import "../styles/globals.css";
 import { Component } from "react/cjs/react.production.min";
