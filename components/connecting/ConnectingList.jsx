@@ -1,15 +1,15 @@
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 
 export const connecting = [
   {
-    id: uuidv4(),
+    id: 1,
     connectingTitle: "Connecting",
     description: "The Athlete and Community Member must meet each other",
     text: "FLOW’s marketplace allows athletes and program supporters to connect in a controlled, safe environment.  No more sliding into DMs!",
     isActive: true,
   },
   {
-    id: uuidv4(),
+    id: 2,
     connectingTitle: "Field of Play",
     description:
       "Determine how they want to work together - which first requires understand how they can work together",
@@ -17,14 +17,14 @@ export const connecting = [
     isActive: false,
   },
   {
-    id: uuidv4(),
+    id: 3,
     connectingTitle: "Negotiating",
     description: "Developing a contract based on the aligned upon engagement",
     text: "FLOW’s marketplace allows athletes and program supporters to connect in a controlled, safe environment.  No more sliding into DMs!",
     isActive: false,
   },
   {
-    id: uuidv4(),
+    id: 4,
     connectingTitle: "Compliance",
     description:
       "Getting the contract to the university compliance department to ensure eligibility",
@@ -32,21 +32,21 @@ export const connecting = [
     isActive: false,
   },
   {
-    id: uuidv4(),
+    id: 5,
     connectingTitle: "Contracting",
     description: "Executing the contract",
     text: " No more sliding into DMs!",
     isActive: false,
   },
   {
-    id: uuidv4(),
+    id: 6,
     connectingTitle: "Payment",
     description: "Invoicing, collecting, and ensuring fair play with funds",
     text: "FLOW’s marketplace allows athletes and program supporters to connect in a controlled, safe environment.  No more sliding into DMs!",
     isActive: false,
   },
   {
-    id: uuidv4(),
+    id: 7,
     connectingTitle: "Reviewing",
     description:
       "A feedback channel to ensure quality and help educate peers going forward",
