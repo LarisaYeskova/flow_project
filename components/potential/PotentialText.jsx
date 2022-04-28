@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import styles from "./Potential.module.css";
 
 export default function PotentialText(prop) {

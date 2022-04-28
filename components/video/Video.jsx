@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import styles from "./Video.module.css";
 import Image from "next/image";
 
