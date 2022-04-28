@@ -1,8 +1,8 @@
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 
 export const clients = [
   {
-    id: uuidv4(),
+    id: 11,
     image: "/client1.png",
     name: "Melissa",
     surname: "Track",
@@ -10,7 +10,7 @@ export const clients = [
       "100m - 10.75 100 Hurdles - 12.39 Mile Run - 4.29.04 Paid for mysemester meal plan",
   },
   {
-    id: uuidv4(),
+    id: 12,
     image: "/client2.png",
     name: "Melissa",
     surname: "Track",
@@ -18,7 +18,7 @@ export const clients = [
       "100m - 10.75 100 Hurdles - 12.39 Mile Run - 4.29.04 Paid for mysemester meal plan",
   },
   {
-    id: uuidv4(),
+    id: 13,
     image: "/client3.png",
     name: "Melissa",
     surname: "Track",
@@ -26,7 +26,7 @@ export const clients = [
       "100m - 10.75 100 Hurdles - 12.39 Mile Run - 4.29.04 Paid for mysemester meal plan",
   },
   {
-    id: uuidv4(),
+    id: 14,
     image: "/client4.png",
     name: "Melissa",
     surname: "Track",

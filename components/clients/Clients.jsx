@@ -4,7 +4,6 @@ import React from "react";
 import Image from "next/image";
 import styles from "./Clients.module.css";
 import { clients } from "./ClientsList";
-import { v4 as uuidv4 } from "uuid";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
